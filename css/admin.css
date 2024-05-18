@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-width {
+    width: 98%;
+}
+
+.profile {
+    background-color: white;
+    color: black;
+    height: 35px;
+    border: 2px solid white;
+}
+
+.menu {
+    width: 25px;
+    height: 26px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+}
